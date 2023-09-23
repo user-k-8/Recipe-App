@@ -13,7 +13,7 @@ function App() {
 <BrowserRouter>
                 
                 <Routes>
-                    <Route exact path="/" element={<RecipeList/>} />
+                    <Route exact path="/recipe-app" element={<RecipeList/>} />
                     <Route  path="/recipe/:id" element={<Recipe/>} />                 
                 </Routes>
                      

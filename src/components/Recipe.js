@@ -20,7 +20,7 @@ const Recipe = () => {
 
          <main className='recipe-list'>
               <div className='back-button-container'>
-                  <Link to= {{pathname:"/" , hash: "top"}}> <button   className='button back-button'>Back</button></Link>
+                  <Link to= {{pathname:"/recipe-app" , hash: "top"}}> <button   className='button back-button'>Back</button></Link>
               </div>
 
               <h1>{element.title}</h1>
@@ -43,7 +43,7 @@ const Recipe = () => {
                 <div>  
                       <h2>Final Result</h2><br/>
                       <div className='back-button-container'>
-                      <Link to= {{pathname:"/" , hash: "top"}}> <button   className='button back-button'>Back</button></Link>
+                      <Link to= {{pathname:"/recipe-app" , hash: "top"}}> <button   className='button back-button'>Back</button></Link>
                      </div>
                 </div>
                 <p><img src={element.img} alt='' className='recipe-details-image'/></p>
