@@ -1,38 +1,287 @@
-.App {
+* {
+  font-family: sans-serif;
+}
+
+body{
+  /* background: rgb(102, 101, 101); */
+  --s: 60px; /* control the size */
+  
+  --_g: #0000 83%,#424040 85% 99%,#0000 101%;
+  background:
+    radial-gradient(27% 29% at right ,var(--_g)) calc(var(--s)/ 2) var(--s),
+    radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
+    radial-gradient(29% 27% at top   ,var(--_g)) 0 calc(var(--s)/ 2),
+    radial-gradient(29% 27% at bottom,var(--_g)) 0 calc(var(--s)/-2)
+    #3a3a3a;
+  background-size: calc(2*var(--s)) calc(2*var(--s));
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.hero-container{
+  background: url('./components/assets/hero.jpg') center center/ cover;
+  height: 100vh;
+  z-index: 1;
+}
+.logo-container>img{
+  z-index: 2;
+  width: 10rem;
+
+}
+
+h1{
+  font-size: 4.3rem;
+  color: white;
+  margin-top: 5rem;
   text-align: center;
+  margin-bottom: 5rem;
+  font-family: 'Sacramento', cursive;
+
+  text-shadow: 3px 4px 3px rgb(251, 228, 94);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  font-family: 'Sacramento', cursive;
+  color: white;
+font-size: 3.5rem;
+text-shadow: 4px 6px 4px rgb(152, 2, 2);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section{
   display: flex;
-  flex-direction: column;
+  gap: 1.5rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+
+
+p{
+  color:white;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+}
+
+article{
+  text-align: center;
+  height: 100%;
+  background-color: rgb(20, 19, 19);
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px rgba(238, 201, 88, 0.7);
+}
+article>img{
+  border-radius: 10px;
+  max-width: 90%;
+}
+
+.cards{
+  padding-top: 4rem;
+  height: max-content;
+}
+
+.menu-item-container{
+  padding-top: 1.8rem;
+}
+img{
+  max-height: 29rem;
+  border-radius: 20px;
+  max-width: 25rem;
+}
+
+.about{
+  margin-top: 3rem;
+  background-color: rgb(16, 16, 16);
+  border-radius: 20px;
+  box-shadow:4px  4px 4px 4px rgba(238, 201, 88, 0.7);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about>img{
+  max-height: 29rem;
+  border-radius: 20px;
+ 
+ 
+}
+.menu-item-container>img{
+  max-height: 29rem;
+  border-radius: 20px;
+ 
+  max-width: 25rem;
+}
+
+.about-heading{
+  font-family: 'Sacramento', cursive;
   color: white;
+  display: block;
+text-align: center;
+font-size: 4rem;
+text-shadow: 4px 4px 6px rgba(238, 201, 88, 0.7);
 }
 
-.App-link {
-  color: #61dafb;
+.menu-text{
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.about-us-text{
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item{
+  flex:1;
+  max-width: 28rem;
+}
+
+.menu-heading{
+  font-family: 'Sacramento', cursive;
+  color: white;
+font-size: 3.5rem;
+text-shadow: 4px 6px 4px rgb(152, 2, 2);
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+}
+
+
+.footer-logo{
+  border-radius: 100%;
+  max-height: 90px;
+  
+}
+
+.footer-logo-container{
+  padding-left: 50px;
+ width: 26%;
+}
+
+
+.copyright>p{
+  
+  
+ 
+  text-align: right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.section-line{
+  width: 75%;
+  margin-top: 2.5rem;
+
+}
+
+.footer-line, .section-line{
+  border: 2px solid white ;
+  box-shadow: 4px 2px 6px rgb(255, 2, 2);
+}
+
+.button{
+  background-color: rgb(165, 31, 31);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 3rem;
+  font-size: 1rem;
+
+}
+.recipe-details-hero-text{
+  text-align: left;
+  margin-left: 5rem;
+font-size: 3.8rem;
+text-shadow: 12px 8px 8px rgb(243, 214, 52);
+margin-top: -8px;
+}
+.recipe-list-hero-text{
+  text-align: left;
+  margin-left: 5rem;
+font-size: 3.8rem;
+text-shadow: 12px 8px 8px rgb(243, 214, 52);
+margin-top: -8px;
+}
+
+
+.recipe-details-image{
+  max-width: 32rem;
+  border-radius: 20px;
+
+}
+
+.final-result-section{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.back-button-container{
+  margin-top: 3rem;
+   width: 100%;
+   text-align: center;
+}
+.back-button{
+  width: 9rem;
+  font-size: 1.5rem;
+}
+
+@media(max-width:768px){
+  body{
+    overflow-x: hidden;
+    margin-left: 0;
   }
-  to {
-    transform: rotate(360deg);
+  section{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width:100%;
+      align-items: center;
+      
+  }
+  .about-heading-container{
+    width: fit-content;
+   text-wrap: wrap;
+  }
+  .menu-item-container{
+    text-align: center;
+  }
+  .menu-item{
+    width: 100%;
+    padding: 20px;
+  }
+  .image-container{
+    width:100%;
+
+  }
+  img{
+    border-radius: 20px;
+    max-width: 90%;
+  }
+  .section-line{
+    width: 95%;
+  }
+
+  
+}
+@media(max-width:991px){
+
+  .cards{
+    flex-direction: column !important; 
   }
 }
+
+
+
+
