@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
         <div className='copyright'>
             <hr className='footer-line'/>
-            <p>Copyright Ultimate Recipe Book 2023</p>
+            <p>Copyright Chef Recipes 2023</p>
         </div>
     </footer>
     </>
