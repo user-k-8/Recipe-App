@@ -14,16 +14,16 @@ const recipeItemsList=[
         title:'Chocolate Fudge Cake',
         id:'chocolateFudgeCake',
         shortDescription:'Indulge in the rich and velvety goodness of our Classic Chocolate Fudge Cake. Layers of moist chocolate cake are generously coated in luscious fudge frosting, making every bite a heavenly chocolate experience.',
-        ingredients: `- Chocolate Cake Layers:
+        ingredients: `Chocolate Cake Layers:
         - 2 cups all-purpose flour
         - 2 cups granulated sugar
         - 1 cup unsweetened cocoa powder
         - 4 large eggs
-        - 1 cup unsalted butter, softened
+        - 1 cup unsalted butter(softened)
         - 1 cup whole milk
         - 2 teaspoons baking powder
         - 2 teaspoons vanilla extract
-      - Fudge Frosting:
+       Fudge Frosting:
         - 2 cups semi-sweet chocolate chips
         - 1 cup unsalted butter
         - 1 cup heavy cream
@@ -55,7 +55,7 @@ const recipeItemsList=[
         title:'Red Velvet Romance',
         id:'redVelvetRomance',
         shortDescription:"Fall in love with our Red Velvet Romance. This classic southern beauty boasts layers of velvety red cocoa cake, complemented by a silky cream cheese frosting. It's a true symbol of love and luxury.",
-        ingredients:  `- Red Velvet Cake Layers:
+        ingredients:  `Red Velvet Cake Layers:
         - 2 ½ cups all-purpose flour
         - 2 ½ cups granulated sugar
         - 1 cup unsalted butter, softened
@@ -64,7 +64,7 @@ const recipeItemsList=[
         - 1 cup buttermilk
         - Red food coloring (as desired)
         - 2 teaspoons baking powder
-      - Cream Cheese Frosting:
+       Cream Cheese Frosting:
         - 8 oz cream cheese
         - 1/2 cup unsalted butter, softened
         - 4 cups powdered sugar
@@ -97,7 +97,7 @@ const recipeItemsList=[
         title:'Vanilla Bean Dream',
         id:'vanillaBeanDream',
         shortDescription:'For a timeless treat, savor our Vanilla Bean Dream. Moist vanilla bean cake layers are stacked high and frosted with a velvety vanilla buttercream, delivering a pure and comforting taste of nostalgia.',
-        ingredients: `- Vanilla Bean Cake Layers:
+        ingredients: `Vanilla Bean Cake Layers:
         - 2 ½ cups all-purpose flour
         - 2 ½ cups granulated sugar
         - 1 cup unsalted butter, softened
@@ -105,7 +105,7 @@ const recipeItemsList=[
         - 1 vanilla bean (seeds scraped)
         - 1 cup buttermilk
         - 2 teaspoons baking powder
-      - Vanilla Buttercream Frosting:
+       Vanilla Buttercream Frosting:
         - 1 cup unsalted butter, softened
         - 4 cups powdered sugar
         - 2 teaspoons vanilla extract`,
@@ -136,7 +136,7 @@ const recipeItemsList=[
         title:'Triple Chocolate Truffle Torte',
         id:'tripleChocolateTruffleTorte',
         shortDescription:'  For the ultimate chocolate lover, our Triple Chocolate Truffle Torte is pure bliss. This decadent creation features layers of dark, milk, and white chocolate cake, coated in a glossy chocolate ganache and adorned with truffle accents.',
-        ingredients:  `- Dark Chocolate Cake Layers:
+        ingredients:  `Dark Chocolate Cake Layers:
         - 2 ½ cups all-purpose flour
         - 2 ½ cups granulated sugar
         - 1 cup unsalted butter, softened
@@ -144,12 +144,12 @@ const recipeItemsList=[
         - 1 cup dark chocolate chips (melted and cooled)
         - 1 cup buttermilk
         - 2 teaspoons baking powder
-      - Milk Chocolate and White Chocolate Layers:
+      Milk Chocolate and White Chocolate Layers:
         - Additional chocolate chips (melted and cooled for each layer)
-      - Chocolate Ganache:
+       Chocolate Ganache:
         - 1 cup dark chocolate chips
         - 1/2 cup heavy cream
-      - Truffle Accents:
+       Truffle Accents:
         - Chocolate truffles for decoration`,
         preparationSteps: `1. **Prepare the Dark Chocolate Cake Layer:**
         a. Preheat your oven to 350°F (175°C).
@@ -190,17 +190,17 @@ const recipeItemsList=[
         title:'Coconut Pineapple Paradise',
         id:'coconutPineappleParadise',
         shortDescription:'Transport yourself to a tropical paradise with our Coconut Pineapple Paradise. Moist coconut cake layers are filled with luscious pineapple compote and topped with a fluffy coconut cream frosting, delivering a taste of the islands in every bite.',
-        ingredients:  `- Coconut Cake Layers:
+        ingredients:  `Coconut Cake Layers:
         - 2 ½ cups all-purpose flour
         - 2 ½ cups granulated sugar
         - 1 cup unsalted butter, softened
         - 4 large eggs
         - 1 cup coconut milk
         - 2 teaspoons baking powder
-      - Pineapple Compote:
+      Pineapple Compote:
         - 2 cups diced pineapple
         - 1/2 cup granulated sugar
-      - Coconut Cream Frosting:
+       Coconut Cream Frosting:
         - 1 cup coconut cream
         - 4 cups powdered sugar
       `,
@@ -236,14 +236,14 @@ const recipeItemsList=[
         title:'Strawberry Shortcake Bliss',
         id:'strawberryShortcakeBliss',
         shortDescription:'Experience the essence of summer with our Strawberry Shortcake Bliss. Tender layers of vanilla sponge cake are layered with fresh, ripe strawberries and billowy whipped cream for a light and refreshing dessert.',
-        ingredients: `- Vanilla Sponge Cake Layers:
+        ingredients: ` Vanilla Sponge Cake Layers:
         - 2 cups all-purpose flour
         - 1 ½ cups granulated sugar
         - 4 large eggs
         - 1 cup milk
         - 2 teaspoons vanilla extract
         - 2 teaspoons baking powder
-      - Additional Ingredients:
+      Additional Ingredients:
         - Fresh strawberries (as needed)
         - Whipped cream (as desired)`,
         preparationSteps: `1. **Prepare the Vanilla Sponge Cake Layers:**
@@ -269,7 +269,7 @@ const recipeItemsList=[
         title:'Lemon Raspberry Delight',
         id:'lemonRaspberryDelight',
         shortDescription:' Brighten your day with our Lemon Raspberry Delight. This zesty lemon cake is filled with a sweet raspberry compote and topped with a tangy lemon glaze, creating a perfect blend of tart and sweet flavors.',
-        ingredients: `- Lemon Cake Layers:
+        ingredients: ` Lemon Cake Layers:
         - 2 cups all-purpose flour
         - 1 ½ cups granulated sugar
         - 1/2 cup unsalted butter, softened
@@ -277,10 +277,10 @@ const recipeItemsList=[
         - 1/2 cup lemon juice
         - Zest from 2 lemons
         - 2 teaspoons baking powder
-      - Raspberry Compote:
+       Raspberry Compote:
         - 2 cups fresh raspberries
         - 1/2 cup granulated sugar
-      - Lemon Glaze:
+       Lemon Glaze:
         - 1 cup powdered sugar
         - 2-3 tablespoons lemon juice`,
         preparationSteps: `1. **Prepare the Lemon Cake Layers:**
